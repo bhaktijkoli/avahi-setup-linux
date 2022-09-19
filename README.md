@@ -3,7 +3,7 @@
     ```
     apt-get install -y avahi-daemon
     ```
-2. Create service file <your_service>.service with the following configuration
+2. Create service file <your_service>.service inside ```/etc/avahi/services``` with the following configuration
     ```
     <?xml version="1.0" standalone='no'?><!--*-nxml-*-->
     <!DOCTYPE service-group SYSTEM "avahi-service.dtd">
